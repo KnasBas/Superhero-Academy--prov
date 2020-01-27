@@ -27,18 +27,21 @@ namespace Superhero_Academy___Prov
             {
                 case 1:
                     Mutant m1 = new Mutant();
+                    m1.name = h1.name;
                     Console.WriteLine("Mutant");
                     m1.PrintStats();
                     break;
 
                 case 2:
                     Alien a1 = new Alien();
+                    a1.name = h1.name;
                     Console.WriteLine("Alien");
                     a1.PrintStats();
                     break;
 
                 case 3:
                     Regular r1 = new Regular();
+                    r1.name = h1.name;
                     Console.WriteLine("Regular");
                     r1.PrintStats();
                     break;

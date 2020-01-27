@@ -17,13 +17,10 @@ namespace Superhero_Academy___Prov
         protected int endurance = 0;
 
         protected static Random generator = new Random(); //slum generator
-
-        public Hero() //en konstruktor
-        {
-        }
-
+ 
         public void PrintStats()
         {
+            Console.WriteLine("Namn: " + name);
             Console.WriteLine("Strength: " + strength);
             Console.WriteLine("Intelligence: " + intelligence);
             Console.WriteLine("Endurance: " + endurance);
