@@ -17,8 +17,9 @@ namespace Superhero_Academy___Prov
             string answer = Console.ReadLine();
             int choice = 0;
             bool heroclass = int.TryParse(answer, out choice);
-            while (!heroclass || choice <= 0 && choice >= 4) //felsökning
+            while (!heroclass && choice <= 0 || choice >= 4) //felsökning
             {
+                Console.WriteLine("Ogiltigt svar!");
                 answer = Console.ReadLine();
                 heroclass = int.TryParse(answer, out choice);
             }
