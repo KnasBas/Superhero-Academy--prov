@@ -105,12 +105,15 @@
       <Entity type="Class">
         <Name>Hero</Name>
         <Access>Public</Access>
-        <Location left="240" top="87" />
+        <Location left="240" top="88" />
         <Size width="162" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Field">protected int strength</Member>
         <Member type="Field">protected int intelligence</Member>
         <Member type="Field">protected int endurance</Member>
+        <Member type="Field">protected static random generator</Member>
+        <Member type="Field">int classroom</Member>
+        <Member type="Constructor">public Hero()</Member>
         <Member type="Method">public void PrintStats()</Member>
         <Modifier>None</Modifier>
       </Entity>
@@ -120,6 +123,7 @@
         <Location left="240" top="402" />
         <Size width="162" height="216" />
         <Collapsed>False</Collapsed>
+        <Member type="Constructor">public Alien()</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
@@ -128,6 +132,7 @@
         <Location left="459" top="373" />
         <Size width="162" height="216" />
         <Collapsed>False</Collapsed>
+        <Member type="Constructor">public Regular()</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
@@ -136,6 +141,7 @@
         <Location left="10" top="373" />
         <Size width="162" height="216" />
         <Collapsed>False</Collapsed>
+        <Member type="Constructor">public Mutant()</Member>
         <Modifier>None</Modifier>
       </Entity>
     </Entities>
